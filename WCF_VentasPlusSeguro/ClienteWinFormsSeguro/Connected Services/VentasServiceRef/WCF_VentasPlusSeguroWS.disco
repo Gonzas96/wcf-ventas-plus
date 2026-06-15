@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://laptop-toh2ue67/VentasSeguro/WCF_VentasPlusSeguroWS.VentasWS.svc?wsdl" docRef="http://laptop-toh2ue67/VentasSeguro/WCF_VentasPlusSeguroWS.VentasWS.svc" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+</discovery>

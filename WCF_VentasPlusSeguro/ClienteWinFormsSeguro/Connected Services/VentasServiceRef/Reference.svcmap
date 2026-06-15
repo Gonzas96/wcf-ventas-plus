@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="8bcf9d35-c99c-479a-a420-d90e5b635251" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/VentasSeguro/WCF_VentasPlusSeguroWS.VentasWS.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCF_VentasPlusSeguroWS.xsd" MetadataType="Schema" ID="a0f8525a-8503-42ea-b91d-fe0ed21f2c7f" SourceId="1" SourceUrl="http://laptop-toh2ue67/VentasSeguro/WCF_VentasPlusSeguroWS.VentasWS.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCF_VentasPlusSeguroWS.disco" MetadataType="Disco" ID="efb80837-dcad-48be-86db-1b50831ed456" SourceId="1" SourceUrl="http://laptop-toh2ue67/VentasSeguro/WCF_VentasPlusSeguroWS.VentasWS.svc?disco" />
+    <MetadataFile FileName="WCF_VentasPlusSeguroWS1.xsd" MetadataType="Schema" ID="ee101d5f-a4a4-4789-913b-67d2abc7258e" SourceId="1" SourceUrl="http://laptop-toh2ue67/VentasSeguro/WCF_VentasPlusSeguroWS.VentasWS.svc?xsd=xsd0" />
+    <MetadataFile FileName="WCF_VentasPlusSeguroWS2.xsd" MetadataType="Schema" ID="28a46ac5-291c-48d5-b340-82ed6fbc8d3b" SourceId="1" SourceUrl="http://laptop-toh2ue67/VentasSeguro/WCF_VentasPlusSeguroWS.VentasWS.svc?xsd=xsd1" />
+    <MetadataFile FileName="VentasWS.wsdl" MetadataType="Wsdl" ID="208f75b4-e19e-4d2e-b0a3-bce8415d2f37" SourceId="1" SourceUrl="http://laptop-toh2ue67/VentasSeguro/WCF_VentasPlusSeguroWS.VentasWS.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

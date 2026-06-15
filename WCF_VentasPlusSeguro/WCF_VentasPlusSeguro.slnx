@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="BL_VentasPlus/BL_VentasPlus.csproj" Id="6247eabd-6638-4272-ad56-04cd4c27f057" />
+  <Project Path="DAO_VentasPlus/DAO_VentasPlus.csproj" Id="b7855d1f-653c-4c25-b4a3-e758298c00ec" />
+  <Project Path="DB_VentasPlus/DB_VentasPlus.csproj" Id="8da0fb44-5860-496b-987b-c91979dfba11" />
+  <Project Path="Model_VentasPlus/Model_VentasPlus.csproj" Id="2d79b8f4-a651-4100-97db-af25e54019b0" />
+  <Project Path="WCF_VentasPlusSeguroWS/WCF_VentasPlusSeguroWS.csproj" Id="0ee57c3a-54a6-4d29-9ddc-fdc3015b4747" />
+</Solution>
