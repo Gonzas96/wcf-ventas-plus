@@ -1,41 +1,41 @@
-# 🛒 VentasPlus — WCF Service + Cliente Windows Forms
+# VentasPlus — WCF Service + Cliente Windows Forms
 
 Sistema de ventas desarrollado con **WCF (Windows Communication Foundation)** y un cliente de escritorio en **Windows Forms**, ambos sobre **.NET Framework 4.7.2**.
 
-## 📌 Descripción
+## Descripcion
 
-El proyecto implementa una arquitectura orientada a servicios (SOA) donde el servicio WCF expone operaciones de negocio que el cliente consume a través de un proxy generado automáticamente.
+El proyecto implementa una arquitectura orientada a servicios (SOA) donde el servicio WCF expone operaciones de negocio que el cliente consume a traves de un proxy generado automaticamente.
 
-## ⚙️ Funcionalidades
+## Funcionalidades
 
-- 📦 **Consulta de productos** — lista los productos disponibles con su información desde el servicio
-- 🧾 **Registro de ventas** — permite registrar una venta a través del cliente Windows Forms, enviando los datos al servicio WCF
+- **Consulta de productos** — lista los productos disponibles con su informacion desde el servicio
+- **Registro de ventas** — permite registrar una venta a traves del cliente Windows Forms, enviando los datos al servicio WCF
 
-## 🏗️ Arquitectura
+## Arquitectura
 
 ```
 wcf-ventas-plus/
 ├── WCF_VentasPlusSeguro/     # Servicio WCF (.NET Framework 4.7.2)
 │   ├── IServicioVentas.cs    # Contrato del servicio (interfaz)
-│   ├── ServicioVentas.svc    # Implementación del servicio
-│   └── Web.config            # Configuración de endpoints y bindings
+│   ├── ServicioVentas.svc    # Implementacion del servicio
+│   └── Web.config            # Configuracion de endpoints y bindings
 │
 └── ClienteVentasPlus/        # Cliente Windows Forms (.NET Framework 4.7.2)
-    ├── Form1.cs              # Interfaz gráfica principal
-    └── App.config            # Configuración del proxy WCF
+    ├── Form1.cs              # Interfaz grafica principal
+    └── App.config            # Configuracion del proxy WCF
 ```
 
-## 🛠️ Tecnologías
+## Tecnologias
 
-| Tecnología | Uso |
+| Tecnologia | Uso |
 |---|---|
 | C# | Lenguaje principal |
-| WCF (Windows Communication Foundation) | Exposición de servicios SOAP |
-| Windows Forms | Interfaz gráfica del cliente |
+| WCF (Windows Communication Foundation) | Exposicion de servicios SOAP |
+| Windows Forms | Interfaz grafica del cliente |
 | .NET Framework 4.7.2 | Plataforma base |
 | Visual Studio | IDE de desarrollo |
 
-## 🚀 Cómo ejecutar
+## Como ejecutar
 
 ### Requisitos
 - Visual Studio 2019 o superior
@@ -53,16 +53,16 @@ wcf-ventas-plus/
 
 3. Ejecuta primero el proyecto **WCF_VentasPlusSeguro** — esto levanta el servicio en IIS Express
 
-4. Luego ejecuta **ClienteVentasPlus** — el cliente se conectará automáticamente al servicio
+4. Luego ejecuta **ClienteVentasPlus** — el cliente se conectara automaticamente al servicio
 
-## 📡 Conceptos aplicados
+## Conceptos aplicados
 
 - Contratos de servicio con `[ServiceContract]` e `[OperationContract]`
-- Configuración de **bindings** y **endpoints** en `Web.config`
-- Generación de proxy cliente con **"Agregar referencia de servicio"**
-- Comunicación **SOAP** entre cliente y servidor
-- Separación de responsabilidades: lógica en el servicio, presentación en el cliente
+- Configuracion de **bindings** y **endpoints** en `Web.config`
+- Generacion de proxy cliente con **"Agregar referencia de servicio"**
+- Comunicacion **SOAP** entre cliente y servidor
+- Separacion de responsabilidades: logica en el servicio, presentacion en el cliente
 
 ---
 
-> Proyecto desarrollado como ejercicio académico para la materia de Arquitectura de Software.
+> Proyecto desarrollado como ejercicio academico para la materia de Arquitectura de Software.
